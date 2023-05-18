@@ -40,6 +40,7 @@
         <element label="Name of High School" mandatory="true" max_length="40" name="name_of_high_school" type="string"/>
         <element label="Phone Number" mandatory="true" max_length="40" name="phone_number" type="phone_number_e164"/>
         <element label="Reviewed by Fulfiller" max_length="40" name="reviewed_by_fulfiller" type="boolean"/>
+        <element label="stud_ref" max_length="32" name="stud_ref" reference="x_1014103_studen_0_registered_students" type="reference"/>
         <element label="University Entrance Exam Score" mandatory="true" max_length="40" name="university_entrance_exam_score" type="integer"/>
         <element label="Year of High School Graduation" mandatory="true" max_length="40" name="year_of_high_school_graduation" type="integer"/>
     </element>

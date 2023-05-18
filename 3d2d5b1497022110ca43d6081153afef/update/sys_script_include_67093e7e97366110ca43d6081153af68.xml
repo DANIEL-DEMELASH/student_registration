@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1014103_studen_0.UpdateRegisteredStudentsState</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>UpdateRegisteredStudentsState</name>
+        <script><![CDATA[var UpdateRegisteredStudentsState = Class.create();
+UpdateRegisteredStudentsState.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    updateState: function() {
+        var gr = new GlideRecord('x_1014103_studen_0_registered_students');
+        var sysId = this.getParameter('sysparm_id');
+
+        if (gr.get(sysId)) {
+            gr.setValue('state', 2);
+            gr.update();
+            return true;
+        } else {
+            gs.info("Record not found.");
+            return false;
+        }
+    },
+
+    type: 'UpdateRegisteredStudentsState'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-18 07:37:31</sys_created_on>
+        <sys_id>67093e7e97366110ca43d6081153af68</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>UpdateRegisteredStudentsState</sys_name>
+        <sys_package display_value="Student registration" source="x_1014103_studen_0">3d2d5b1497022110ca43d6081153afef</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Student registration">3d2d5b1497022110ca43d6081153afef</sys_scope>
+        <sys_update_name>sys_script_include_67093e7e97366110ca43d6081153af68</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-18 08:15:37</sys_updated_on>
+    </sys_script_include>
+</record_update>

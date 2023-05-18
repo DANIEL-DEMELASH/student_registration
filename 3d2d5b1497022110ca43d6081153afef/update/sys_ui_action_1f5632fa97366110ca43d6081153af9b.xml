@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
-        <action_name/>
+        <action_name>Update to In Progress</action_name>
         <active>true</active>
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
-
+    var sysId = g_form.getUniqueValue();
+    var ga = new GlideAjax('x_1014103_studen_0.UpdateRegisteredStudentsState');
+    ga.addParam('sysparm_name', 'updateState');
+	ga.addParam('sysparm_id', sysId);
+    ga.getXMLAnswer(function(response) {
+        if (response === 'true') {
+            // Success: Handle the desired action when the state is updated successfully
+            alert('State updated successfully!');
+        } else {
+            // Error: Handle the error condition or display an error message
+            alert('Error updating state!');
+        }
+    });
 }]]></client_script_v2>
         <comments/>
-        <condition/>
+        <condition>current.getValue('state') == 1</condition>
         <form_action>false</form_action>
         <form_button>false</form_button>
         <form_button_v2>true</form_button_v2>
         <form_context_menu>false</form_context_menu>
         <form_link>false</form_link>
-        <form_menu_button_v2>true</form_menu_button_v2>
+        <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <format_for_configurable_workspace>true</format_for_configurable_workspace>
         <hint/>
-        <isolate_script>false</isolate_script>
+        <isolate_script>true</isolate_script>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
@@ -27,7 +39,7 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>My Button</name>
+        <name>Update to In Progress</name>
         <onclick/>
         <order>100</order>
         <script/>
@@ -37,19 +49,19 @@
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-17 14:11:17</sys_created_on>
+        <sys_created_on>2023-05-18 07:21:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2d1b47a697f62110ca43d6081153af68</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>My Button</sys_name>
+        <sys_id>1f5632fa97366110ca43d6081153af9b</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>Update to In Progress</sys_name>
         <sys_overrides/>
         <sys_package display_value="Student registration" source="x_1014103_studen_0">3d2d5b1497022110ca43d6081153afef</sys_package>
         <sys_policy/>
         <sys_scope display_value="Student registration">3d2d5b1497022110ca43d6081153afef</sys_scope>
-        <sys_update_name>sys_ui_action_2d1b47a697f62110ca43d6081153af68</sys_update_name>
+        <sys_update_name>sys_ui_action_1f5632fa97366110ca43d6081153af9b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-17 14:11:17</sys_updated_on>
+        <sys_updated_on>2023-05-18 08:29:12</sys_updated_on>
         <table>x_1014103_studen_0_registered_students</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
