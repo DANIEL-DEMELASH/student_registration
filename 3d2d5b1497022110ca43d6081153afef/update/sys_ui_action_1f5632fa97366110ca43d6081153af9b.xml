@@ -5,18 +5,17 @@
         <client>false</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
     var sysId = g_form.getUniqueValue();
-    var ga = new GlideAjax('x_1014103_studen_0.UpdateRegisteredStudentsState');
-    ga.addParam('sysparm_name', 'updateState');
-	ga.addParam('sysparm_id', sysId);
-    ga.getXMLAnswer(function(response) {
-        if (response === 'true') {
-            // Success: Handle the desired action when the state is updated successfully
-            alert('State updated successfully!');
-        } else {
-            // Error: Handle the error condition or display an error message
-            alert('Error updating state!');
-        }
-    });
+	var rgUtils = new RegisteredStudentUtils();
+	
+	var isStateChanged = rgUtils.updateState(sysId, 2);
+	if(isStateChanged == true){
+		gs.info('yes');
+		location.reload(true);
+	}else{
+		gs.info('no');
+	}
+	
+// 	alert(g_form.getValue('state'));
 }]]></client_script_v2>
         <comments/>
         <condition>current.getValue('state') == 1</condition>
@@ -42,7 +41,16 @@
         <name>Update to In Progress</name>
         <onclick/>
         <order>100</order>
-        <script/>
+        <script><![CDATA[var sysId = current.getUniqueValue();
+var rgUtils = new RegisteredStudentUtils();
+
+var isStateChanged = rgUtils.updateState(sysId, 2);
+if (isStateChanged == true) {
+    gs.info('yes');
+    location.reload(true);
+} else {
+    gs.info('no');
+}]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -53,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1f5632fa97366110ca43d6081153af9b</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Update to In Progress</sys_name>
         <sys_overrides/>
         <sys_package display_value="Student registration" source="x_1014103_studen_0">3d2d5b1497022110ca43d6081153afef</sys_package>
@@ -61,7 +69,7 @@
         <sys_scope display_value="Student registration">3d2d5b1497022110ca43d6081153afef</sys_scope>
         <sys_update_name>sys_ui_action_1f5632fa97366110ca43d6081153af9b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-18 08:29:12</sys_updated_on>
+        <sys_updated_on>2023-05-22 12:48:25</sys_updated_on>
         <table>x_1014103_studen_0_registered_students</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

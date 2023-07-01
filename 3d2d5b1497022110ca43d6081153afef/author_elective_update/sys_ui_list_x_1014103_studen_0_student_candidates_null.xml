@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_1014103_studen_0_student_candidates" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1014103_studen_0_student_candidates" element="NULL" name="x_1014103_studen_0_student_candidates" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94bf939497022110ca43d6081153af47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 09:06:46</sys_created_on>
+            <sys_id>10bf939497022110ca43d6081153af48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 09:06:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>first_name</element>
+            <list_id display_value="x_1014103_studen_0_student_candidates" element="NULL" name="x_1014103_studen_0_student_candidates" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94bf939497022110ca43d6081153af47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 09:06:46</sys_created_on>
+            <sys_id>90bf939497022110ca43d6081153af48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 09:06:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>middle_name</element>
+            <list_id display_value="x_1014103_studen_0_student_candidates" element="NULL" name="x_1014103_studen_0_student_candidates" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94bf939497022110ca43d6081153af47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 09:06:46</sys_created_on>
+            <sys_id>14bf939497022110ca43d6081153af48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 09:06:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>last_name</element>
+            <list_id display_value="x_1014103_studen_0_student_candidates" element="NULL" name="x_1014103_studen_0_student_candidates" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94bf939497022110ca43d6081153af47</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 09:06:46</sys_created_on>
+            <sys_id>94bf939497022110ca43d6081153af48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 09:06:46</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1014103_studen_0_student_candidates</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-03 09:06:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94bf939497022110ca43d6081153af47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1014103_studen_0_student_candidates</sys_name>
+            <sys_package display_value="Student registration" source="x_1014103_studen_0">3d2d5b1497022110ca43d6081153afef</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student registration">3d2d5b1497022110ca43d6081153afef</sys_scope>
+            <sys_update_name>sys_ui_list_x_1014103_studen_0_student_candidates_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-03 09:06:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student registration">3d2d5b1497022110ca43d6081153afef</application>
+        <file_path/>
+        <instance_id>90e1cef4db05bfc042b321c40596192a</instance_id>
+        <instance_name>dev83121</instance_name>
+        <name>sys_ui_list_x_1014103_studen_0_student_candidates_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="x_1014103_studen_0_student_candidates" version="2" view=""><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>number</element><list_id display_value="x_1014103_studen_0_student_candidates" element="NULL" name="x_1014103_studen_0_student_candidates" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94bf939497022110ca43d6081153af47</list_id><max_value>false</max_value><min_value>false</min_value><position>0</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-03 09:06:46</sys_created_on><sys_id>10bf939497022110ca43d6081153af48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-03 09:06:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>first_name</element><list_id display_value="x_1014103_studen_0_student_candidates" element="NULL" name="x_1014103_studen_0_student_candidates" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94bf939497022110ca43d6081153af47</list_id><max_value>false</max_value><min_value>false</min_value><position>1</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-03 09:06:46</sys_created_on><sys_id>90bf939497022110ca43d6081153af48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-03 09:06:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>middle_name</element><list_id display_value="x_1014103_studen_0_student_candidates" element="NULL" name="x_1014103_studen_0_student_candidates" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94bf939497022110ca43d6081153af47</list_id><max_value>false</max_value><min_value>false</min_value><position>2</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-03 09:06:46</sys_created_on><sys_id>14bf939497022110ca43d6081153af48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-03 09:06:46</sys_updated_on></sys_ui_list_element><sys_ui_list_element action="INSERT_OR_UPDATE"><average_value>false</average_value><element>last_name</element><list_id display_value="x_1014103_studen_0_student_candidates" element="NULL" name="x_1014103_studen_0_student_candidates" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">94bf939497022110ca43d6081153af47</list_id><max_value>false</max_value><min_value>false</min_value><position>3</position><sum>false</sum><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-03 09:06:46</sys_created_on><sys_id>94bf939497022110ca43d6081153af48</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-03 09:06:46</sys_updated_on></sys_ui_list_element><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>x_1014103_studen_0_student_candidates</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-03 09:06:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>94bf939497022110ca43d6081153af47</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1014103_studen_0_student_candidates</sys_name><sys_package display_value="Student registration" source="x_1014103_studen_0">3d2d5b1497022110ca43d6081153afef</sys_package><sys_policy/><sys_scope display_value="Student registration">3d2d5b1497022110ca43d6081153afef</sys_scope><sys_update_name>sys_ui_list_x_1014103_studen_0_student_candidates_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-03 09:06:46</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+        <payload_hash>-964812716</payload_hash>
+        <record_name>student candidates</record_name>
+        <reverted_from/>
+        <source>ca2d5b1497022110ca43d6081153aff1</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-03 09:06:46</sys_created_on>
+        <sys_id>dcbf5b1897022110ca43d6081153afbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187465e6d430000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-03 09:06:46</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>d4bf5b1821022110f2f4bd28be093fbd</update_guid>
+        <update_guid_history>d4bf5b1821022110f2f4bd28be093fbd:-964812716,971e9b54c7022110e0cf934c1f390e83:-909303564</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-03 09:28:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>afe4e97bbf9449c7875bd12be7b31d81</sys_id>
+        <sys_metadata>94bf939497022110ca43d6081153af47</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1014103_studen_0_student_candidates</sys_name>
+        <sys_package display_value="Student registration" source="x_1014103_studen_0">3d2d5b1497022110ca43d6081153afef</sys_package>
+        <sys_parent display_value="">64ddd35497022110ca43d6081153afe5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student registration">3d2d5b1497022110ca43d6081153afef</sys_scope>
+        <sys_scope_delete display_value="">175f8e40bea047ab91d2651cc48d3db9</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_1014103_studen_0_student_candidates_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_1014103_studen_0_student_candidates_null">dcbf5b1897022110ca43d6081153afbd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-03 09:28:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

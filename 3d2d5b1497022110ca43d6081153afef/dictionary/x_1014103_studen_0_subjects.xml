@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8b33cca197432110ca43d6081153af5d" label="subjects" max_length="40" name="x_1014103_studen_0_subjects" type="collection">
+        <element label="student" max_length="32" name="student" reference="x_1014103_studen_0_registered_students" type="reference"/>
+        <element label="subject" max_length="40" name="subject" type="string"/>
+        <index name="index">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

@@ -4,13 +4,13 @@
             <element>first_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>67f77a3e97366110ca43d6081153af7d</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>f076211797b62110ca43d6081153afad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>middle_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>6bf77a3e97366110ca43d6081153af7d</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>f476211797b62110ca43d6081153afad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>last_name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>6ff77a3e97366110ca43d6081153af7d</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>f876211797b62110ca43d6081153afad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>gender</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>63f77a3e97366110ca43d6081153af7e</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>fc76211797b62110ca43d6081153afad</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>67f77a3e97366110ca43d6081153af7e</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>f076211797b62110ca43d6081153afae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>date_of_birth</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>6bf77a3e97366110ca43d6081153af7e</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>f476211797b62110ca43d6081153afae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>class_department</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>6ff77a3e97366110ca43d6081153af7e</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>f876211797b62110ca43d6081153afae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>campus</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>63f77a3e97366110ca43d6081153af7f</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>fc76211797b62110ca43d6081153afae</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>date_of_registration</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-05-18 07:25:14</sys_created_on>
-            <sys_id>67f77a3e97366110ca43d6081153af7f</sys_id>
+            <sys_created_on>2023-05-19 14:45:54</sys_created_on>
+            <sys_id>f076211797b62110ca43d6081153afaf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1014103_studen_0_registered_students" sys_domain="global" view="Default view">d3d8cce097c22110ca43d6081153af72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-05-18 07:25:14</sys_updated_on>
+            <sys_updated_on>2023-05-19 14:45:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

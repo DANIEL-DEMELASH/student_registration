@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="3f98002497c22110ca43d6081153afca" extends="task" label="Registered Students" max_length="40" name="x_1014103_studen_0_registered_students" type="collection">
+    <element attributes="email_client=true" db_object_id="3f98002497c22110ca43d6081153afca" extends="task" label="Registered Students" max_length="40" name="x_1014103_studen_0_registered_students" text_index="true" type="collection">
         <element choice="3" label="Application Type" max_length="40" name="application_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Freshman" sequence="0" value="freshman"/>

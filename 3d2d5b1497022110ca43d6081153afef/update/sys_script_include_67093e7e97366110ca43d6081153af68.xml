@@ -2,40 +2,42 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_1014103_studen_0.UpdateRegisteredStudentsState</api_name>
+        <api_name>x_1014103_studen_0.RegisteredStudentUtils</api_name>
         <caller_access/>
-        <client_callable>false</client_callable>
+        <client_callable>true</client_callable>
         <description/>
-        <name>UpdateRegisteredStudentsState</name>
-        <script><![CDATA[var UpdateRegisteredStudentsState = Class.create();
-UpdateRegisteredStudentsState.prototype = Object.extendsObject(AbstractAjaxProcessor, {
-    updateState: function() {
+        <name>RegisteredStudentUtils</name>
+        <script><![CDATA[var RegisteredStudentUtils = Class.create();
+RegisteredStudentUtils.prototype = {
+    updateState: function(sysId, value) {
         var gr = new GlideRecord('x_1014103_studen_0_registered_students');
-        var sysId = this.getParameter('sysparm_id');
+        gr.addQuery('sys_id', sysId);
+        gr.query();
 
-        if (gr.get(sysId)) {
-            gr.setValue('state', 2);
+        if (gr.next()) {
+            gr.setValue('state', value); 
             gr.update();
-            return true;
+			return true;
         } else {
-            gs.info("Record not found.");
-            return false;
-        }
+			gs.info('error');
+			return false;
+         }
+
     },
 
-    type: 'UpdateRegisteredStudentsState'
-});]]></script>
+    type: 'RegisteredStudentUtils'
+};]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-05-18 07:37:31</sys_created_on>
         <sys_id>67093e7e97366110ca43d6081153af68</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>UpdateRegisteredStudentsState</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>RegisteredStudentUtils</sys_name>
         <sys_package display_value="Student registration" source="x_1014103_studen_0">3d2d5b1497022110ca43d6081153afef</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Student registration">3d2d5b1497022110ca43d6081153afef</sys_scope>
         <sys_update_name>sys_script_include_67093e7e97366110ca43d6081153af68</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-18 08:15:37</sys_updated_on>
+        <sys_updated_on>2023-05-22 12:32:01</sys_updated_on>
     </sys_script_include>
 </record_update>
